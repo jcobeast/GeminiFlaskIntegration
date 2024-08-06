@@ -4,17 +4,14 @@ This project integrates Gemini AI into a web application using Flask for the bac
 
 ## Features
 
--   AI-powered features provided by Gemini AI
+-   Generative AI response provided by Gemini AI
 -   RESTful API using Flask
 -   Interactive UI using React
--   Authentication and authorization
--   Responsive design
 
 ## Technologies Used
 
 -   Backend: Flask, Python
 -   Frontend: React, JavaScript
--   Database: SQLite (for development), PostgreSQL (for production)
 -   API: Gemini AI API
 
 ## Prerequisites
