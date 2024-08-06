@@ -62,7 +62,7 @@ button:hover {
 	margin: 20px auto;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	font-size: 1.2em;
-	line-height: 1.6;
+	line-height: 1.4;
 	text-align: left;
 }
 
@@ -92,8 +92,8 @@ button:hover {
 }
 
 .response code {
-	background: #f1f1f1;
 	padding: 2px 4px;
 	border-radius: 4px;
 	font-family: "Courier New", Courier, monospace;
+	font-size: 0.8em;
 }
