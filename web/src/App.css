@@ -1,0 +1,99 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+		"Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #f0f0f0;
+}
+
+.App {
+	text-align: center;
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+	padding: 20px;
+}
+
+form {
+	margin: 20px 0;
+}
+
+input[type="text"] {
+	padding: 10px;
+	font-size: 1.2em;
+	border-radius: 5px;
+	border: 2px solid #61dafb;
+	margin-right: 10px;
+	width: 300px;
+	max-width: 80%;
+}
+
+button {
+	padding: 10px 20px;
+	font-size: 1.2em;
+	border-radius: 5px;
+	border: none;
+	background-color: #61dafb;
+	color: white;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+button:hover {
+	background-color: #21a1f1;
+}
+
+.response {
+	background: white;
+	color: black;
+	border-radius: 10px;
+	padding: 20px;
+	max-width: 800px;
+	margin: 20px auto;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	font-size: 1.2em;
+	line-height: 1.6;
+	text-align: left;
+}
+
+.response h1,
+.response h2,
+.response h3,
+.response h4,
+.response h5,
+.response h6 {
+	color: #282c34;
+}
+
+.response p {
+	margin: 10px 0;
+}
+
+.response a {
+	color: #61dafb;
+}
+
+.response pre {
+	background: #282c34;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	overflow-x: auto;
+}
+
+.response code {
+	background: #f1f1f1;
+	padding: 2px 4px;
+	border-radius: 4px;
+	font-family: "Courier New", Courier, monospace;
+}
