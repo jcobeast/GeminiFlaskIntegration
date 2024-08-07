@@ -9,7 +9,7 @@ function App() {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const result = await axios.post("http://localhost:9000/generate", {
+			const result = await axios.post("http://127.0.0.1:5000/generate", {
 				question,
 			});
 			setResponse(result.data.response);
@@ -34,7 +34,7 @@ function App() {
 				</form>
 				<div
 					className="response"
-					dangerouslySetInnerHTML={{ __html: response }}
+					dangerouslySetInnerHTML={{ __html:  response}}
 				></div>
 			</header>
 		</div>
